@@ -1,0 +1,35 @@
+.screen {
+  border-bottom: 50px solid rgb(255, 159, 95);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 100;
+  width:80%;
+  filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+  font-size: 25px;
+  color: #fff;
+}
+.chair {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s;
+  background-color: white;
+  color: #000;
+}
+
+.chair:hover {
+  background-color: #000;
+  color: #fff;
+}
+.hover-none:hover {
+  background-color: white;
+}
+.chair.booked {
+  background-color: red;
+}
+.chair.booking {
+  background-color: green;
+  color: #fff;
+}
